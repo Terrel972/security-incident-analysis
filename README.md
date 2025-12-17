@@ -75,6 +75,17 @@ Aspiring **Security Analyst (Blue Team / SOC-oriented)** currently in profession
 
 Actively seeking a **security analyst internship** with exposure to SOC operations, incident response, and security monitoring, with the objective of transitioning into a **junior security analyst / analyste sécurité polyvalent** role.
 
-This portfolio reflects my analytical approach, documentation skills, and readiness to operate in a real corporate or MSSP security environment.
+## What This Portfolio Demonstrates
+
+This portfolio demonstrates my ability to operate as a junior security analyst in a SOC or MSSP environment, including:
+
+- Structured incident handling following real SOC workflows
+- Alert triage and prioritization
+- Investigation and evidence correlation
+- Clear and professional incident documentation
+- Understanding of detection, response, and remediation phases
+- Communication aligned with analyst-to-analyst and analyst-to-management standards
+
+This portfolio is built around realistic SOC workflows and is designed to mirror how incidents are handled, documented, and escalated in professional security operations.
 
 

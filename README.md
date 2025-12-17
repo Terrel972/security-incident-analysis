@@ -1,54 +1,80 @@
 # Security Incident Analysis – SOC Analyst Portfolio
 
-This repository contains simulated but realistic security incident analyses designed to reflect the day-to-day work of a **Junior SOC Analyst**.
+## About this repository
+This repository is a SOC analyst portfolio designed to demonstrate my ability to work within a **Security Operations Center (SOC)** or **MSSP environment**.
 
-The incidents are based on **Windows and Active Directory environments** and follow a structured **incident response lifecycle** aligned with SOC best practices.
+It showcases how I approach security alerts from detection to remediation, following a structured and repeatable incident response workflow.
+
+All incidents are **training-based simulations** inspired by SOC monitoring scenarios (TryHackMe) and enterprise Windows environments.
+
 
 ---
 
-## Scope & Methodology
+## Skills Demonstrated
+- SOC alert analysis and validation
+- Alert triage and severity assessment
+- Windows endpoint investigation
+- IOC identification and documentation
+- Timeline reconstruction
+- Incident impact assessment
+- Response and remediation planning
+- Clear and structured SOC reporting
 
-Each incident report includes:
 
-- Alert analysis and triage
-- Log and telemetry investigation
-- Identification of attacker techniques (MITRE ATT&CK aligned)
+---
+
+## Incident Structure
+Each incident follows the same SOC workflow:
+
+1. Detection  
+2. Triage  
+3. Investigation  
+4. Impact analysis  
+5. Response  
+6. Remediation  
+
+This structure reflects how incidents are handled in a real SOC environment.
+
+---
+
+## Incidents
+
+### 🔹 Incident 01 – Suspicious Activity on Windows Endpoint
+**Scenario:**  
+SOC alert triggered due to unusual behavior detected on a corporate Windows endpoint.
+
+**Key analyst actions:**
+- Alert validation and triage
+- Investigation of endpoint activity
+- IOC identification
 - Impact assessment
-- Containment and response actions
-- Remediation and hardening recommendations
+- Response and remediation planning
 
-The goal is to demonstrate **practical defensive security skills**, not theoretical knowledge.
+📂 Incident folder:  
+`incident-01-windows-endpoint/`
 
 ---
 
-## Tools & Technologies Used
-
+## Tools & Concepts Used
 - Windows Event Logs
-- Sysmon
-- SIEM-style log analysis
-- PowerShell (analysis & triage)
-- Active Directory fundamentals
-- MITRE ATT&CK framework
+- Basic SIEM concepts
+- IOC analysis
+- Incident timelines
+- SOC analyst workflows
 
 ---
 
-## Incident Reports
-
-### Incident 01 – Suspicious Activity on a Windows Endpoint  
-**SOC Level:** 1  
-**Focus:** Alert triage, endpoint investigation, initial containment  
-
-### Incident 02 – Lateral Movement and Privilege Escalation in Active Directory  
-**SOC Level:** 2 (upcoming)  
-**Focus:** Authentication abuse, privilege escalation, domain impact analysis  
+## Disclaimer
+This repository contains **training-based simulations only**.  
+No real production data or sensitive information is used.
 
 ---
 
-## Purpose
+## About Me
+Aspiring **Security Analyst (Blue Team / SOC-oriented)** currently in professional training.
 
-This repository is intended for:
-- Recruiters
-- SOC team leads
-- Security professionals
+Actively seeking a **security analyst internship** with exposure to SOC operations, incident response, and security monitoring, with the objective of transitioning into a **junior security analyst / analyste sécurité polyvalent** role.
 
-It reflects my progression toward a career in **Security Operations (SOC)** and serves as a practical portfolio to support applications for **Junior Security Analyst / SOC Analyst roles**.
+This portfolio reflects my analytical approach, documentation skills, and readiness to operate in a real corporate or MSSP security environment.
+
+

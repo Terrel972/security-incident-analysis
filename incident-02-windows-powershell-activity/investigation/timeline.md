@@ -1,21 +1,16 @@
-# PowerShell Execution Timeline
+# Incident Timeline – Suspicious RDP Activity
 
-## Timeline Overview
-This timeline documents the sequence of events related to the
-suspicious PowerShell activity.
+## Summary
+A successful remote authentication followed by an interactive RDP session was observed on the Administrator account.
 
-| Time (UTC) | Event Description |
-|-----------|------------------|
-| T0 | PowerShell process execution detected |
-| T0 + 1 min | Script or command execution observed |
-| T0 + 2 min | PowerShell process terminated |
-| T0 + 5 min | No additional suspicious activity detected |
+## Timeline
+| Time | Event | Details |
+|------|-------|---------|
+| 17:01:13 | Logon Type 3 | Network authentication from 10.80.108.111 |
+| 17:01:15 | Logon Type 10 | RDP session established on Administrator |
 
-## Observations
-- Single execution instance
-- No repeated execution patterns observed
-- No child processes spawned at this stage
+## Analysis
+No post-authentication process execution (Event ID 4688) was observed during the analysis window.
 
-## Assessment
-The timeline suggests a short-lived execution with no immediate
-follow-up actions.
+## Status
+Suspicious activity – monitored
